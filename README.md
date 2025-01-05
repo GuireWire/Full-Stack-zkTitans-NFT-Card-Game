@@ -7,7 +7,7 @@
 
 A Web3 battle card game inspired by Crash Bandicoot: Crash of the Titans. Battle with randomly generated cards on the zkSync Sepolia testnet. Built with Vyper smart contracts and a React frontend.
 
-🌐 Live Site: zktitans.site
+🌐 **Live Site**: [zktitans.site](https://zktitans.site/)
 
 ## Tech Stack
 
