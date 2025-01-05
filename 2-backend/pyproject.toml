@@ -1,0 +1,20 @@
+[project]
+name = "moccasin_project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["mamushi>=0.0.3", "moccasin>=0.3.6", "ruff>=0.8.2"]
+
+[tool.moccasin.project]
+src = "contracts"
+dependencies = ["snekmate", "rust-just"]
+
+[tool.moccasin.networks.sepolia-zksync]
+url = "$SEPOLIA_ZKSYNC_RPC_URL"
+chain_id = 300
+save_to_db = true
+default_account_name = "Sepolia1"
+explorer_uri = "https://explorer.sepolia.era.zksync.dev/"
+explorer_type = "zksyncexplorer"
+is_zksync = true
