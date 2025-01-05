@@ -1,7 +1,7 @@
 # zkTitans - Crash Bandicoot Battle Card Game
 
 <p align="center">
-  <img src="../assets/hero-img.jpg" alt="zkTitans Hero image" width="800"/>
+  <img src="/assets/hero-img.jpg" alt="zkTitans Hero image" width="800"/>
 </p>
 
 
