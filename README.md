@@ -11,7 +11,19 @@ A Web3 battle card game inspired by Crash Bandicoot: Crash of the Titans. Battle
 
 ## Tech Stack
 
-### Backend
+### Backend - Primary
+- **Smart Contract**: Solidity
+- Foundry smart contract testing and development framework
+- **Network**: zkSync Sepolia Testnet
+- **Features**:
+  - ERC1155 token implementation
+  - Random card generation
+  - Battle system with attack/defense mechanics
+  - Dynamic stat generation
+  - Player registration and management
+
+
+### Backend - Alternative
 - **Smart Contract**: Vyper 0.4.0
 - Python Deployment
 - Moccasin smart contract testing and development framework
