@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 
 import { Battleground, CreateBattle, Battle, Home, JoinBattle } from './page';
 import { OnboardModal } from './components';
@@ -8,7 +8,7 @@ import { GlobalContextProvider } from './context';
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <HashRouter>
     <GlobalContextProvider>
       <OnboardModal />
       <Routes>
@@ -19,5 +19,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/join-battle" element={<JoinBattle />} />
       </Routes>
     </GlobalContextProvider>
-  </BrowserRouter>,
+  </HashRouter>,
 );
